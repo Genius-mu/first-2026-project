@@ -1,7 +1,12 @@
-
 "use client";
 import React, { useState } from "react";
 // import { currencyFormatter } from "../product/[id]/page"; // Fix import for use in client boundary
+const currencyFormatter = (amount: number) => {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+  }).format(amount);
+};
 
 function AddToCartClient({
   productId,
