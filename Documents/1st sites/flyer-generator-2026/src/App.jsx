@@ -427,8 +427,7 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Footer */}
+        
         <div className="text-center mt-8 text-purple-300">
           <p className="text-sm">Made with ❤️ for celebrating 2026</p>
         </div>
